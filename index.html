@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <style>
 @keyframes rotX{
-from{transform: rotateX(180deg);}
-to{transform: rotateX(90deg);}
+from{transform: rotate3d(0,1,0.5,45deg);}
+to{ transform: rotate3d(0,1,0.5,180deg);}
 animation-iteration-count: infinite;
-}
-@keyframes rotY{
-from{transform: rotateY(180deg);}
-to{transform: rotateY(90deg);}
-animation-iteration-count: infinite;
-}
-@keyframes rotZ{
-from{transform: rotateZ(180deg);}
-to{transform: rotateZ(90deg);}
-animation-iteration-count: infinite;
-}
+
 square {
 width: 300px;
 height: 100px;
@@ -22,6 +12,6 @@ background-color: yellow;
 border: 1px solid black;
 }
 </style>
-<square id=rotX id=rotY>
+<square id=rotX>
 squareeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 </square>
